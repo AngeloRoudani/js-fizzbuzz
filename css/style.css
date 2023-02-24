@@ -9,6 +9,14 @@ body {
     text-align: center;
 }
 
+.bg_yellow {
+    background-color: yellowgreen;
+}
+
+.bg_blue {
+    background-color: rgb(50, 188, 252);
+}
+
 .title {
     color: white;
 }
@@ -25,7 +33,7 @@ body {
     width: 80px;
     height: 80px;
     margin: 10px;
-    background-color: blueviolet;
+    background-color: rgb(162, 82, 236);
     display: flex;
     justify-content: center;
     align-items: center;
