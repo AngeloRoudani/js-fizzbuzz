@@ -19,22 +19,22 @@ for (let i = 1; i <= 100; i++) {
 
 
     if (i % (3 * 5) == 0) {
-        let squareDom = `<div class="square"> ${FizzBuzz}</div>`;
+        const squareDom = `<div class="square bg_blue"> ${FizzBuzz}</div>`;
         containerDom.innerHTML += squareDom;
         console.log(FizzBuzz);
 
     } else if (i % 5 == 0 ) {
-        let squareDom = `<div class="square"> ${Buzz}</div>`;
+        const squareDom = `<div class="square bg_green"> ${Buzz}</div>`;
         containerDom.innerHTML += squareDom;
         console.log(Buzz);
 
     } else if (i % 3 == 0) {
-        let squareDom = `<div class="square"> ${Fizz}</div>`;
+        const squareDom = `<div class="square bg_yellow"> ${Fizz}</div>`;
         containerDom.innerHTML += squareDom;
         console.log(Fizz);
 
     } else {
-        let squareDom = `<div class="square"> ${i}</div>`;
+        const squareDom = `<div class="square bg_violet"> ${i}</div>`;
         containerDom.innerHTML += squareDom;
         console.log(i)
 
