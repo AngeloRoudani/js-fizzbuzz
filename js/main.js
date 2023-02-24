@@ -20,20 +20,20 @@ for (let i = 1; i <= 100; i++) {
     if (i % 3 == 0 ) {
 
     let i = Fizz;
-    console.log(i);
+    console.log(Fizz);
 
-    }  
-    if (i % 5 == 0 ) {
+    }  else if (i % 5 == 0 ) {
 
     let i = Buzz;
-    console.log(i);
+    console.log(Buzz);
 
     } 
+    
     if (i % (3 * 5) == 0) {
         let Fizz = FizzBuzz;
         let Buzz = FizzBuzz;
         let i = FizzBuzz;
-        console.log(i);
+        console.log(FizzBuzz);
 
     }
 
